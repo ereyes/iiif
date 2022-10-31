@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 250,
+    "height" : 200
+  }, {
+    "width" : 500,
+    "height" : 400
+  }, {
+    "width" : 1000,
+    "height" : 800
+  }, {
+    "width" : 2000,
+    "height" : 1600
+  }, {
+    "width" : 4000,
+    "height" : 3200
+  }, {
+    "width" : 8000,
+    "height" : 6400
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 8000,
+  "@id" : "https://ereyes.github.io/iiif/images/covers-8k-6k-100thumb",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 6400
+}
