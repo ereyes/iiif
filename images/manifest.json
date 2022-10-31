@@ -1,0 +1,66 @@
+{
+  "id" : "https://ereyes.github.io/iiif/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ereyes/iiif project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2048,
+    "id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/canvas/",
+    "label" : {
+      "none" : [ "312665364_3219506328299404_3606530863992025693_n" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 64,
+              "height" : 43
+            }, {
+              "width" : 128,
+              "height" : 86
+            }, {
+              "width" : 256,
+              "height" : 171
+            }, {
+              "width" : 512,
+              "height" : 342
+            }, {
+              "width" : 1024,
+              "height" : 683
+            }, {
+              "width" : 2048,
+              "height" : 1365
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2048,
+            "@id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1365
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2048,
+          "id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1365
+        },
+        "target" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/canvas/"
+      } ]
+    } ],
+    "height" : 1365
+  } ]
+}
