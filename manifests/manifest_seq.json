@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ereyes.github.io/iiif/manifests/manifest_seq.json",
+  "@type" : "sc:Manifest",
+  "label" : "Pochettes de disques",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://3bfb22bf-b719-44b8-9890-1a4fc9ca62ea",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://5c4bac5a-5a43-4a52-aed2-c1b087f380de",
+      "@type" : "sc:Canvas",
+      "label" : "Pochettes de disques",
+      "height" : "6000",
+      "width" : "8000",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e0f03b8d-f995-4452-8a17-a4841c0e9aa0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ereyes.github.io/iiif/images/covers-8k-6k-100thumb/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ereyes.github.io/iiif/images/covers-8k-6k-100thumb",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 6400,
+          "width" : 8000
+        },
+        "on" : "http://5c4bac5a-5a43-4a52-aed2-c1b087f380de"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2cc8701f-9add-4764-90d6-fcb9d0701b1e",
+      "@type" : "sc:Canvas",
+      "label" : "Condorcet",
+      "height" : 1365,
+      "width" : 2048,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1b0c2c70-50b3-443d-90fe-6c3257b552a2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1365,
+          "width" : 2048
+        },
+        "on" : "http://2cc8701f-9add-4764-90d6-fcb9d0701b1e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
