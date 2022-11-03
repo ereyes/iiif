@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ereyes.github.io/iiif/manifests/manifest_seq.json",
     "label" : "Pochettes de disques"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ereyes.github.io/iiif/manifests/manifest_exemple.json",
+    "label" : "Deux images d'exemple"
   } ]
 }
