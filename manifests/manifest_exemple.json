@@ -1,0 +1,72 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ereyes.github.io/iiif/manifests/manifest_exemple.json",
+  "@type" : "sc:Manifest",
+  "label" : "Deux images d'exemple",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Exemple de manifest avec séquence d'images",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Master AVUN, Paris 8",
+  "sequences" : [ {
+    "@id" : "http://1edaf216-7374-47e6-a949-9dd23a9c7b33",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://3ade2b04-7db2-4be9-b589-607ca0aa7762",
+      "@type" : "sc:Canvas",
+      "label" : "Tableau Blumen Mythos",
+      "height" : 1431,
+      "width" : 800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4179b049-d8e2-45a5-8ef6-a514897d6f03",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ereyes.github.io/iiif/images/klee-blumen_mythos/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ereyes.github.io/iiif/images/klee-blumen_mythos",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1431,
+          "width" : 800
+        },
+        "on" : "http://3ade2b04-7db2-4be9-b589-607ca0aa7762"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://82643a46-84e6-435b-9eb9-1aff8f49289e",
+      "@type" : "sc:Canvas",
+      "label" : "Campus Condorcet",
+      "height" : 1365,
+      "width" : 2048,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://abfa7cea-4ae5-4608-8072-b1d796b4b82d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ereyes.github.io/iiif/images/312665364_3219506328299404_3606530863992025693_n",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1365,
+          "width" : 2048
+        },
+        "on" : "http://82643a46-84e6-435b-9eb9-1aff8f49289e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
