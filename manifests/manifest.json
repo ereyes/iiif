@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ereyes.github.io/iiif/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://6fd08383-45e5-427b-8806-1eeda99db8aa",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://6334c9ee-55b9-4026-b5c6-e09a584a9ef0",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 416,
+      "width" : 624,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c14985b-15ca-4ee5-8a5d-5a54f0aa8189",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ereyes.github.io/iiif/images/350528-le-musee-du-louvre-coeur-artistique-et-touristique-de-la-capitale/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ereyes.github.io/iiif/images/350528-le-musee-du-louvre-coeur-artistique-et-touristique-de-la-capitale",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 416,
+          "width" : 624
+        },
+        "on" : "http://6334c9ee-55b9-4026-b5c6-e09a584a9ef0"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
