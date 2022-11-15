@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ereyes.github.io/iiif/manifests/manifest_exemple.json",
     "label" : "Deux images d'exemple"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ereyes.github.io/iiif/manifests/manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
