@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 20,
+    "height" : 13
+  }, {
+    "width" : 39,
+    "height" : 26
+  }, {
+    "width" : 78,
+    "height" : 52
+  }, {
+    "width" : 156,
+    "height" : 104
+  }, {
+    "width" : 312,
+    "height" : 208
+  }, {
+    "width" : 624,
+    "height" : 416
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 624,
+  "@id" : "https://ereyes.github.io/iiif/images/350528-le-musee-du-louvre-coeur-artistique-et-touristique-de-la-capitale",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 416
+}
