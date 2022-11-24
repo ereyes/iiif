@@ -7,6 +7,64 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 4000,
+    "id" : "https://ereyes.github.io/iiif/images/plot_test/canvas/",
+    "label" : {
+      "none" : [ "plot_test" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ereyes.github.io/iiif/images/plot_test/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ereyes.github.io/iiif/images/plot_test/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 79
+            }, {
+              "width" : 250,
+              "height" : 157
+            }, {
+              "width" : 500,
+              "height" : 313
+            }, {
+              "width" : 1000,
+              "height" : 625
+            }, {
+              "width" : 2000,
+              "height" : 1250
+            }, {
+              "width" : 4000,
+              "height" : 2500
+            } ],
+            "profile" : "level0",
+            "width" : 4000,
+            "id" : "https://ereyes.github.io/iiif/images/plot_test",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2500
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://ereyes.github.io/iiif/images/plot_test/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2500
+        },
+        "target" : "https://ereyes.github.io/iiif/images/plot_test/canvas/"
+      } ]
+    } ],
+    "height" : 2500
+  }, {
+    "width" : 4000,
     "id" : "https://ereyes.github.io/iiif/images/plot_domotics/canvas/",
     "label" : {
       "none" : [ "plot_domotics" ]
