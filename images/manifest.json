@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 3000,
+    "id" : "https://ereyes.github.io/iiif/images/plot_test_02/canvas/",
+    "label" : {
+      "none" : [ "plot_test_02" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ereyes.github.io/iiif/images/plot_test_02/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ereyes.github.io/iiif/images/plot_test_02/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 94,
+              "height" : 59
+            }, {
+              "width" : 188,
+              "height" : 118
+            }, {
+              "width" : 375,
+              "height" : 235
+            }, {
+              "width" : 750,
+              "height" : 469
+            }, {
+              "width" : 1500,
+              "height" : 938
+            }, {
+              "width" : 3000,
+              "height" : 1875
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3000,
+            "@id" : "https://ereyes.github.io/iiif/images/plot_test_02",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1875
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3000,
+          "id" : "https://ereyes.github.io/iiif/images/plot_test_02/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1875
+        },
+        "target" : "https://ereyes.github.io/iiif/images/plot_test_02/canvas/"
+      } ]
+    } ],
+    "height" : 1875
+  }, {
     "width" : 4000,
     "id" : "https://ereyes.github.io/iiif/images/plot_test/canvas/",
     "label" : {
